@@ -9,6 +9,8 @@ from optical_flow_liked_approaches.optical_model import OpticalModel
 from optical_flow_liked_approaches.auto_optical_model import AutoOpticalModel, stack_2_frames
 from steps import train
 
+private_key = "sensitive key"
+
 def prepare_traintest_set_for_opticalflow_liked_approaches(opticalflow_convert_func,
     frames_path='data/frames', given_labels_path = 'data/train.txt', test_set_size=1000):
 
