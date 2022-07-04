@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 
+public_key = "sensitive key"
 
 class OpticalModel():
     def __init__(self, input_shape,
